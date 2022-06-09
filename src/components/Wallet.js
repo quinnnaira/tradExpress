@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/wallet.css'
-import {BsBank2} from 'react-icons/bs'
 import income from '../images/income.png'
 import bank from  '../images/bank.png'
 

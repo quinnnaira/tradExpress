@@ -6,8 +6,7 @@ import '../styles/trade.css';
 
 const Trade = () => {
     const [state, setstate] = useState('Buy')
-    const [cointosell, setcointosell] = useState('Bitcoin')
-    const [currency, setcurrency] = useState('')
+    const [currency] = useState('')
     const [quantity, setquantity] = useState('')
 
     // other component

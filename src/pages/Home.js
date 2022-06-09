@@ -4,11 +4,8 @@ import Header from '../components/Header';
 import Fetcher from '../components/Fetcher';
 import img1 from '../images/home_image.png';
 import img2 from '../images/home_image2.png';
-import img3 from '../images/guyandphone.jfif';
-import img4 from '../images/wallet.jfif';
-import img5 from '../images/tablet.jpg';
 import apple from '../images/apple.png';
-import playstore from '../images/playstore.png'
+import playstore from '../images/playstore.png';
 
 
 
@@ -22,7 +19,7 @@ const Home = (props) => {
                 <p className='first_section_p'>why do people get involved with cryptocurrencies?</p>
                 <div className='first_section_div'>
                     <div className='first_section_div_child' >
-                        <img className='img1' src={img1} className='img1'/>
+                        <img className='img1' src={img1} />
                         <h3>easy mode of payment</h3>
                         <p>
                             people can now easily send and recieve money from

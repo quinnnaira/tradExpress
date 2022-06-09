@@ -27,7 +27,7 @@ const Navbar = () => {
     }
     return (
         <nav>
-            <Link to='/'><img src={trad}/></Link>
+            <Link to='/'><img alt="logo" src={trad}/></Link>
             <div className='navy'>
                 <Link to='/Trade'><span className='instant'>Instant Buy/Sell</span></Link>
                 <Link to='/dashboard'><span className='dashboard'>Dashboard</span></Link>

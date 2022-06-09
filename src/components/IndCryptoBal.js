@@ -9,7 +9,7 @@ const IndCryptoBal = (props) => {
                 <span>{props.crypto}</span><br/>
                 <span>{props.balance}</span>
             </div>
-            <img src={props.img}/>
+            <img alt="bitcoin" src={props.img}/>
         </section>
     )
 }

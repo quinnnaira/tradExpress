@@ -19,7 +19,7 @@ const Home = (props) => {
                 <p className='first_section_p'>why do people get involved with cryptocurrencies?</p>
                 <div className='first_section_div'>
                     <div className='first_section_div_child' >
-                        <img className='img1' src={img1} />
+                        <img alt="easy mode of payment" className='img1' src={img1} />
                         <h3>easy mode of payment</h3>
                         <p>
                             people can now easily send and recieve money from
@@ -27,7 +27,7 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className='first_section_div_child'>
-                        <img className='img1' src={img2}/>
+                        <img alt="financial freedom" className='img1' src={img2}/>
                         <h3>finacial freedom</h3>
                         <p>
                         Just like the internet no single entity controls the Crypto network which
@@ -35,8 +35,8 @@ const Home = (props) => {
                         </p>
                     </div>
                     <div className='first_section_div_child'>
-                        <img className='img1' src={img1}/>
-                        <h3>investment</h3>
+                        <img alt="investment" className='img1' src={img1}/>
+                        <h3>investment</h3> 
                         <p>
                         The constant demand as made Cryptocurrecies a Digital Gold used for alternative
                          store of wealth on long term investments.
@@ -56,12 +56,12 @@ const Home = (props) => {
                             devices and follow our easy process to set up your profile.
                             </p>
                         </div>
-                        <img src={img1} className='sec_img'/>
+                        <img alt="sec image"src={img1} className='sec_img'/>
                     </div>
                 
                 
                     <div className='second_section_divs'>
-                        <img src={img1} className='sec_img'/>
+                        <img alt="deposit" src={img1} className='sec_img'/>
                         <div className='dbc'>
                             <h3>deposit</h3>
                             <p>
@@ -80,7 +80,7 @@ const Home = (props) => {
                             it in your wallet or send it easily to friends and family.
                             </p>
                         </div>
-                        <img  src={img2} className='sec_img size'/>
+                        <img alt="buy and sell crypto" src={img2} className='sec_img size'/>
                     </div>
                 </div>
             </section>
@@ -91,14 +91,14 @@ const Home = (props) => {
                 <div className='button-app-div'>
                 <div className='third_section_button_div'>
                     <button className='third_section_button'>
-                        <img src={apple}/>
+                        <img alt="download on appstore" src={apple}/>
                         <div className='appstore-div'>
                             <span className='download'>Download on the</span>
                             <span className='span-appstore'>App Store</span>
                         </div>
                     </button>
                     <button className='third_section_button'>
-                        <img src={playstore}/>
+                        <img alt="downlaod on playstore" src={playstore}/>
                         <div className='appstore-div'>
                             <span className='download'>Download on the</span>
                             <span className='span-appstore'>Google Store</span>

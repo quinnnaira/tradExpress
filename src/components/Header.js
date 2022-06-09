@@ -11,14 +11,14 @@ const Header = () => {
             <button className='headerbutton'>Get Started</button>
             <div className='button-app-div'>
                 <button className='appstore'>
-                    <img src={apple}/>
+                    <img alt="apple" src={apple}/>
                     <div className='appstore-div'>
                         <span className='download'>Download on the</span>
                         <span className='span-appstore'>App Store</span>
                     </div>
                 </button>
                 <button className='googleplay'>
-                    <img src={playstore}/>
+                    <img alt="playstore" src={playstore}/>
                     <div className='appstore-div'>
                         <span className='download'>Download on the</span>
                         <span className='span-appstore'>Google Store</span>

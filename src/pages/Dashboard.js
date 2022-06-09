@@ -18,7 +18,7 @@ const Dashboard = (props) => {
     return (
         <section className='getstartedd'>
             <section className='getstartedd_sectionone'>
-                <img src={img1}/>
+                <img alt="get started" src={img1}/>
                 <ul>
                     <li><RiDashboardLine/> Dashboard</li>
                     <li><AiFillWallet/> Wallet</li>

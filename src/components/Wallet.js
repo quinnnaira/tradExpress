@@ -12,11 +12,11 @@ const Wallet = () => {
             </div>
             <div className='bank_space'>
                 <div className='income'>
-                    <img src={income} className='income_img'/>
+                    <img alt="income" src={income} className='income_img'/>
                     <span>NGN Deposit</span>
                 </div>
                 <div className='bank'>
-                    <img src={bank} className='bank_img'/>
+                    <img alt="bank" src={bank} className='bank_img'/>
                     <span>NGN Withdrawal</span>
                 </div>
             </div>

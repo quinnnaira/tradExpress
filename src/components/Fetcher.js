@@ -9,7 +9,7 @@ const Fetcher = (props) => {
     if(props.my_data < 1){
         return(
             <section className='fetcher'>
-                <img alt="loading image" src={loading} className='img_loading'/>
+                <img alt="loading" src={loading} className='img_loading'/>
             </section>
         )
     }

@@ -56,7 +56,7 @@ const Home = (props) => {
                             devices and follow our easy process to set up your profile.
                             </p>
                         </div>
-                        <img alt="sec image"src={img1} className='sec_img'/>
+                        <img alt="sec"src={img1} className='sec_img'/>
                     </div>
                 
                 
